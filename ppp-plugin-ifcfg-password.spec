@@ -2,7 +2,7 @@ Summary:	ppp plugin reading passwords from ifcfg
 Summary(pl):	Wtyczka ppp czytaj±ca has³a z ifcfg
 Name:		ppp-plugin-ifcfg-password
 Version:	0.1
-Release:	3
+Release:	4
 License:	distributable
 Group:		Networking/Daemons
 Source0:	ftp://dev.null.pl/pub/%{name}-%{version}.tar.gz
@@ -33,7 +33,7 @@ ln -sf /usr/include/pppd/*.h .
 rm -rf $RPM_BUILD_ROOT
 
 %{__make} install \
-	DESTDIR=$RPM_BUILD_ROOT
+	LIBDIR=$RPM_BUILD_ROOT%{_libdir}/pppd
 
 %clean
 rm -rf $RPM_BUILD_ROOT
