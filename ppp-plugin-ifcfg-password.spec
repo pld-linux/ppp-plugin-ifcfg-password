@@ -9,7 +9,7 @@ Source0:	ftp://dev.null.pl/pub/%{name}-%{version}.tar.gz
 # Source0-md5:	926c7fc7bd73fcec8769dfcda66247d7
 BuildRequires:	ppp-plugin-devel >= 2.4.1
 BuildRequires:	rpmbuild(macros) >= 1.145
-%requires_eq_to ppp ppp-plugin-devel
+%{requires_eq_to ppp ppp-plugin-devel}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
