@@ -1,11 +1,10 @@
 
-%define version 0.1
 %define ppp_version 2.4.1
 
 Summary:	ppp plugin reading passwords from ifcfg
 Summary(pl):	Wtyczka ppp czytaj±ca has³a z ifcfg
 Name:		ppp-plugin-ifcfg-password
-Version:	%{version}
+Version:	0.1
 Release:	1
 License:	distributable
 Group:		Networking/Daemons
