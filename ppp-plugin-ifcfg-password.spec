@@ -10,6 +10,7 @@ Release:	1
 License:	distributable
 Group:		Networking/Daemons
 Source0:	ftp://dev.null.pl/pub/%{name}-%{version}.tar.gz
+# Source0-md5:	926c7fc7bd73fcec8769dfcda66247d7
 Requires:	ppp-%{ppp_version}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
