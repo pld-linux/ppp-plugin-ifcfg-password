@@ -27,6 +27,7 @@ ln -sf /usr/include/pppd/*.h .
 %build
 %{__make} \
 	CC="%{__cc}" \
+	LDFLAGS="%{rpmldflags} -shared" \
 	CFLAGS="%{rpmcflags} -fPIC -Wall"
 
 %install
