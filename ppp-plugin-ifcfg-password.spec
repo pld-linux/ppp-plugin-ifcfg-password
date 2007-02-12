@@ -1,5 +1,5 @@
 Summary:	ppp plugin reading passwords from ifcfg
-Summary(pl):	Wtyczka ppp czytaj±ca has³a z ifcfg
+Summary(pl.UTF-8):   Wtyczka ppp czytajÄ…ca hasÅ‚a z ifcfg
 Name:		ppp-plugin-ifcfg-password
 Version:	0.1
 Release:	5
@@ -15,8 +15,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 ppp plugin reading passwords from ifcfg.
 
-%description -l pl
-Wtyczka ppp czytaj±ca has³a z ifcfg.
+%description -l pl.UTF-8
+Wtyczka ppp czytajÄ…ca hasÅ‚a z ifcfg.
 
 %prep
 %setup -q
