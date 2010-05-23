@@ -28,7 +28,7 @@ ln -sf /usr/include/pppd/*.h .
 %{__make} \
 	CC="%{__cc}" \
 	LDFLAGS="%{rpmldflags} -shared" \
-	CFLAGS="%{rpmcflags} -fPIC -Wall"
+	CFLAGS="%{rpmcflags} %{rpmcppflagfs} -fPIC -Wall"
 
 %install
 rm -rf $RPM_BUILD_ROOT
