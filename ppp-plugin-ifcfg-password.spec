@@ -2,7 +2,7 @@ Summary:	ppp plugin reading passwords from ifcfg
 Summary(pl.UTF-8):	Wtyczka ppp czytająca hasła z ifcfg
 Name:		ppp-plugin-ifcfg-password
 Version:	0.1
-Release:	6
+Release:	7
 License:	distributable
 Group:		Networking/Daemons
 Source0:	ftp://dev.null.pl/pub/%{name}-%{version}.tar.gz
